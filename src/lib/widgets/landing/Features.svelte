@@ -1,5 +1,11 @@
 <script>
+import { CountUp } from 'countup.js';
+	import { onMount } from 'svelte';
 
+	onMount(() => {
+        const orgsCountUp = new CountUp('orgs', 87, { enableScrollSpy: true, duration: 10 }),
+        toolsCountUp = new CountUp('tools', 124, { enableScrollSpy: true, duration: 7 });
+	});
 </script>
 
 <section class="section">
@@ -40,8 +46,8 @@
         <img src="/images/circle_yellow.png" loading="eager" alt="" class="number-background  h-34 w-34 saturate">
       </div> -->
       <div id="w-node-e3579d8a-327c-7894-dbea-e7798e48d7ae-9531edc0" class="headline-text no-margin-bottom">
-        <h2>50+ organizacji</h2>
-        <h2>100+ metod i praktyk</h2>
+        <h2 > <span id="orgs"></span>+ organizacji</h2>
+        <h2> <span id="tools"></span>+ metod i praktyk</h2>
 
 
         <!-- <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> -->
