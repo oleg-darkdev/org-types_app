@@ -1,18 +1,18 @@
 <script>
 	import '../app.css';
-	import 'aos/dist/aos.css';
-	import AOS from 'aos';
-	import { onMount } from 'svelte';
-	onMount(() => {
-		AOS.init();
-	});
+	// import 'aos/dist/aos.css';
+	// import AOS from 'aos';
+	// import { onMount } from 'svelte';
+	// onMount(() => {
+	// 	AOS.init();
+	// });
 </script>
 
-<main class="bg-black overflow-hidden">
-	<slot />
-</main>
+<!-- body -->
+<!-- page-wrapper -->
+<div class="overflow-hidden ">
+  <slot />
+</div>
 
-<style>
-</style>
 
 
