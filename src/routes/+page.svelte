@@ -54,13 +54,21 @@ const otherBoardgames = [
 
 
 
-  <a name="spiral-dynamics"></a>
 
-  <CtaLight />
+
+  <CtaLight>
+      <h1 class="above">
+        Spiralna dynamika - opisuje rozwój ludzkich  <em class="special-word">systemów myślenia</em> poprzez serię kolejnych stopni.
+      </h1>
+  </CtaLight>
 
   <OrgTypesList categories={categories.all}/>
 
-  <CtaColoured />
+  <CtaColoured>
+    <h1 class="above">
+      Pomaga rozwijać umiejętności <em class="special-word">myślenia systemowego</em>. , <em class="special-word">zarządzania</em> z różnymi modelami organizacyjnymi.
+    </h1>
+  </CtaColoured>
 
 
   <div class="max-w-6xl mx-auto rounded-2xl grid gap-6">
