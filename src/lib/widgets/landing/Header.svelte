@@ -42,14 +42,7 @@
 
   </div> -->
 
-  <div class="_12-col wrapper">
-    <a id="w-node-_0a70b4b6-ab25-19b0-227c-86c932d6b60c-32d6b60a" href="/" aria-current="page" class="logo-container w-inline-block w--current">
-      <img src="/images/logo.svg" loading="lazy" alt="Fujee Design Logo" class="logo pointer">
-    </a>
-    <div id="w-node-bc8188c3-82c0-f7de-5492-ab5d605d99e9-32d6b60a">
-      <a href="/app" class="nav-link">👉 Work</a>
-    </div>
-  </div>
+
 </header>
 
 

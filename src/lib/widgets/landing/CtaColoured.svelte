@@ -1,18 +1,14 @@
 <script>
-
+  export let content;
 </script>
 
 <div class="section">
   <div class="wrapper">
     <div class="w-layout-grid _12-col cta-full-panel">
       <div class="text-wrap cta-content">
-        <h1 class="above">
-          Lorem Ipsum is
-          <em class="special-word">simply</em>.
-           dummy text of the printing and typesetting industry.
-         </h1>
+        <slot/>
         <div class="button-container margin-top-80 above">
-          <a href="/" class="button w-button">Get Started</a>
+          <a href="/app" class="button w-button">Rozpocząć grę</a>
         </div>
       </div>
       <div class="img-wrap cta-gradient-container">

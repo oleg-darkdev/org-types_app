@@ -11,6 +11,8 @@
           <img src="images/rounded_section_gradient.png" loading="lazy" alt="" class="saturate">
         </div>
       </div>
+    <a name="spiral-dynamics"></a>
+
     </div>
     <div class="max-w-3xl mx-auto">
       {#each categories as {tailPosition, title, brandColor, shortDesc, id}}
