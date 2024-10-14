@@ -7,7 +7,7 @@ import PurpleOrgCard from './ui/PurpleOrgCard.svelte';
 
 // landing
 import FeatureCard from './ui/landing/FeatureCard.svelte';
-// import VioletOrgCard from './ui/landing/VioletOrgCard.svelte';
+import OtherBoardgameCard from './ui/landing/OtherBoardgameCard.svelte';
 // import VioletOrgCard from './ui/landing/VioletOrgCard.svelte';
 // import VioletOrgCard from './ui/landing/VioletOrgCard.svelte';
 
@@ -21,5 +21,5 @@ import RolesList from './ui/app/RolesList.svelte';
 
 
 export {
-  VioletOrgCard, BlueOrgCard, GreenOrgCard, YellowOrgCard, PurpleOrgCard, FeatureCard, RolesList,
+  VioletOrgCard, BlueOrgCard, GreenOrgCard, YellowOrgCard, PurpleOrgCard, FeatureCard, RolesList, OtherBoardgameCard, 
 };
