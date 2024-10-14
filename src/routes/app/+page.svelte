@@ -1,10 +1,10 @@
 <script>
-    import { AdvancedColorsRoleScreen, BasicColorsRoleScreen, EvolvingColorsRoleScreen, VerifierRoleScreen, TimerRoleScreen, GuideRoleScreen } from '$lib/widgets'
-    import { RolesList } from '$lib/entities'
-    import { userRole,  rollDice, getRoleMessage } from '$lib/shared';
+  //   import { AdvancedColorsRoleScreen, BasicColorsRoleScreen, EvolvingColorsRoleScreen, VerifierRoleScreen, TimerRoleScreen, GuideRoleScreen } from '$lib/widgets'
+  //   import { RolesList } from '$lib/entities'
+  //   import { userRole,  rollDice, getRoleMessage } from '$lib/shared';
 
-  let message = '';
-  $: message = getRoleMessage(); // Reactive role message
+  // let message = '';
+  // $: message = getRoleMessage();
 </script>
 
 

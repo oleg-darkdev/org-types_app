@@ -1,5 +1,5 @@
 <script>
-  
+
 </script>
 
 <div role="listitem" class="collection-item w-dyn-item">
@@ -44,7 +44,7 @@
         <div class="signal-description">
           <div class="padding">
             <div class="rich-text-block w-richtext">
-              <p><a href="https://theprepaideconomy.com/" alt="Informal Economies by Niti Bhan and Beuluh Osueke" target="_blank">The Prepaid
+              <p><a href="/" alt="" target="_blank">The Prepaid
                   Economy: Africa</a> (2013–present) is a research project on the leapfrogging potential
                 and vernacular innovations of digital technologies as they intersect with the informal
                 economy in Sub-Saharan Africa, an economic sector that is often particularly led by women.
