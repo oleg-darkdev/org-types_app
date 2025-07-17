@@ -275,7 +275,7 @@ const otherBoardgames = [
 <!-- + pink -->
   </div>
 
-  <OtherBoardgames {otherBoardgames}/>
+  <!-- <OtherBoardgames {otherBoardgames}/> -->
 
   <Faq />
 </main>
