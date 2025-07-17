@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.tag.beige-org {
+  background-color: #fff9e7;
+}
+/* .org-block.beige-org {
+    border: 1px solid var(--brand-purple);
 
+} */
+/* .beige-org {
+  color: #fff9e7;
+} */
 .AchievementIconWrapper {
 	display: inline-block;
 	height: 48px;
@@ -3890,12 +3899,15 @@ textarea.w-select {
   left: 0;
 }
 :root {
+  --brand-beige: #fff9e7;
   --brand-purple: #4d21aa;
   --white: white;
   --brand-teal: #4fdecc;
   --brand-yellow: #ffd33f;
   --background-color: #fffefa;
-  --brand-magenta: #ff2bd0;
+  --brand-red: #fd130f;
+  --brand-blue: #0800ff;
+  --brand-green: #00b355;
   --brand-orange: #ff8a00;
   --663399: #6221aa;
 }
@@ -4148,19 +4160,104 @@ blockquote {
   border-radius: 60px;
   padding: 42px;
 }
+
+.org-block {
+  border: 1px solid var(--brand-purple);
+  background-color: var(--white);
+  border-radius: 60px;
+  padding: 42px;
+}
+
+.blue-org {
+color: var(--brand-blue);
+}
+.green-org {
+color: var(--brand-green);
+}
+.red-org {
+color: var(--brand-red);
+}
+.orange-org {
+color: var(--brand-orange);
+}
+.pink-org {
+color: var(--brand-pink);
+}
+.yellow-org {
+color: var(--brand-yellow);
+}
+.teal-org {
+  color: var(--brand-teal);
+}
+.purple-org {
+  color: var(--brand-purple);
+}
+/* 
+.org-block.beige-org {
+  border: 1px solid var(--brand-purple);
+}
+.org-block.blue-org {
+    border: 1px solid var(--brand-blue);
+}
+.org-block.green-org {
+    border: 1px solid var(--brand-green);
+
+}
+.org-block.red-org {
+    border: 1px solid var(--brand-red);
+
+}
+.org-block.orange-org {
+    border: 1px solid var(--brand-orange);
+
+}
+.org-block.pink-org {
+    border: 1px solid var(--brand-pink);
+
+}
+.org-block.yellow-org {
+    border: 1px solid var(--brand-yellow);
+
+}
+.org-block.teal-org {
+    border: 1px solid var(--brand-yellow);
+
+}
+.org-block.purple-org {
+    border: 1px solid var(--brand-purple);
+
+} */
 .tag {
-  background-color: var(--brand-yellow);
+  color: var(--white);
   border-radius: 100px;
   margin-bottom: 20px;
   padding: 6px 10px 5px;
   display: inline-block;
 }
-.tag.teal-version {
+
+.tag.blue-org {
+background-color: var(--brand-blue);
+}
+.tag.green-org {
+background-color: var(--brand-green);
+}
+.tag.red-org {
+background-color: var(--brand-red);
+}
+.tag.orange-org {
+background-color: var(--brand-orange);
+}
+.tag.pink-org {
+background-color: var(--brand-pink);
+}
+.tag.yellow-org {
+background-color: var(--brand-yellow);
+}
+.tag.teal-org {
   background-color: var(--brand-teal);
 }
-.tag.purple-version {
+.tag.purple-org {
   background-color: var(--brand-purple);
-  color: var(--white);
 }
 .tag.work-piece-tag {
   background-color: #0000;
