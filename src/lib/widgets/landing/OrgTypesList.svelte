@@ -18,7 +18,7 @@
       {#each categories as {tailPosition, title, brandColor, shortDesc, id}}
           <div class="card-wrap">
               <div class="max-w-lg bubble-container">
-              <div class="testimonial-block {brandColor}">
+              <div class="org-block border  {brandColor}">
                 <div class="tag {brandColor}">{title}</div>
                 <blockquote>{shortDesc}</blockquote>
               </div>
